@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.text {
+  background: yellow;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
