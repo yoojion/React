@@ -1,6 +1,8 @@
 //동위에 있는 logo.svg 파일을  logo라는 이름으로 불러옴
 import logo from "./logo.svg";
 import img from "./img.jpg";
+import Mango from "./Mango";
+import Card from "./Card";
 import "./App.css";
 
 //컴포넌트 만들기
@@ -27,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <Mango />
+      <Card />
       <Comp />
       <Comp />
       <Comp />
